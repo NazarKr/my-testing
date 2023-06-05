@@ -11,27 +11,12 @@ export const HeaderNav = styled.div`
   flex-direction: row;
 `;
 
-export const HeaderButton = styled.button`
-  margin-right: 10px;
-  font-family: "Montserrat";
-  font-size: 10px;
-  width: 55px;
 
-  @media screen and (min-width: 480px) and (max-width: 767px) {
-    font-size: 13px;
-    width: 100px;
-  }
-  @media screen and (min-width: 768px) {
-    font-size: 16px;
-    width: 140px;
-  }
-`;
 export const LinkHeader = styled(NavLink)`
-  font-family: "Montserrat";
   text-decoration: none;
   color: black;
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 600;
   padding: 8px;
   background-color: white;
   border: none;

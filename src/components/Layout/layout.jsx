@@ -12,18 +12,14 @@ const Layout = () => {
     <>
       <HeaderBox>
         <HeaderNav>
-
               <LinkHeader to="/"> Home</LinkHeader>
-
-            <HeaderTitle variant="h6" component="div">
-              Twitcard
+            <HeaderTitle>
+              Tweetcards
             </HeaderTitle>
-
-              <LinkHeader to="/followers">Tweets</LinkHeader>
-
+              <LinkHeader to="/users">Tweets</LinkHeader>
         </HeaderNav>
       </HeaderBox>
-      <Suspense fallback={<div>Завантажуєм...</div>}>
+      <Suspense fallback={<div>Loading...</div>}>
         <Outlet />
       </Suspense>
     </>

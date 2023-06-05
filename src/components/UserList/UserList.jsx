@@ -29,7 +29,7 @@ export const UsersList = () => {
           );
         })}
       </ul>
-      <LoadMoreButton />
+        <LoadMoreButton/>
     </>
   );
 };
