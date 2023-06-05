@@ -3,7 +3,6 @@ import { NavLink } from "react-router-dom";
 
 export const HeaderBox = styled.div`
   width: 100%;
-
 `;
 
 export const HeaderNav = styled.div`
@@ -31,10 +30,10 @@ export const LinkHeader = styled(NavLink)`
   font-family: "Montserrat";
   text-decoration: none;
   color: black;
-  font-size: 10px;
+  font-size: 18px;
   font-weight: 500;
-  padding:  8px;
-
+  padding: 8px;
+  background-color: white;
   border: none;
   border-radius: 10px;
   box-shadow: 0 3.44px 3.44px 0 rgba(0, 0, 0, 0.25);
@@ -52,12 +51,12 @@ export const LinkHeader = styled(NavLink)`
   }
 
   @media screen and (min-width: 480px) and (max-width: 767px) {
-    font-size: 13px;
-    padding:  10px;
+    font-size: 14px;
+    padding: 10px;
   }
   @media screen and (min-width: 768px) {
-    font-size: 18px;
-    padding:  25px;
+    font-size: 20px;
+    padding: 25px;
   }
   &.active {
     color: #00ff00;
@@ -68,7 +67,7 @@ export const HeaderTitle = styled.p`
   font-weight: 700;
   font-size: 16px;
   text-align: center;
-  margin-right: 10px;
+  margin: 5px;
   @media screen and (min-width: 480px) and (max-width: 767px) {
     font-size: 20px;
   }
