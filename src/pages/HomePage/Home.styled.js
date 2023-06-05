@@ -6,9 +6,8 @@ export const HomeWraper = styled.div`
   width: 100%;
   display: flex;
   align-items: center;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: start;
+  flex-direction: column;
+  justify-content: center;
 `;
 export const HomeDescr = styled.p`
   font-weight: 500;
@@ -27,9 +26,9 @@ export const HomeDescr = styled.p`
 `;
 
 export const HomeImg = styled.img`
-  display: block;
+  /* display: block;
   width: 150px;
   width: 400px;
   height: 250px;
-  margin-right: 20px;
+  margin-right: 20px; */
 `;
